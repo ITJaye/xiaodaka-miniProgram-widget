@@ -1,0 +1,12 @@
+
+<!--使用方法-->
+<!--<import src="../../template/xiaodaka-btn/xiaodaka-btn.wxml"></import>-->
+<!--<template is="xiaodaka-btn__index" data="{{bottom: 12,right: 3,appId: 'wx855c5d7718f218c9',path: '/pages/index/index',openType: 'navigate',extra: '',txt: '打卡',version: 'release'}}"></template>-->
+
+<template name="xiaodaka-btn__index">
+    <navigator target="miniProgram" open-type="{{openType}}" app-id="{{appId}}" path="{{path}}" url="{{path}}" extra-data="{{extra}}" version="{{version}}">
+        <view class="xiaodaka-btn__index" style="position: fixed;display: flex;flex-direction: column;align-items: center;justify-content: center;width: 90rpx;height: 90rpx;background-color: #1DACA9;box-shadow: 0 4rpx 14rpx rgba(0, 0, 0, .1), 0 4rpx 14rpx rgba(0, 0, 0, 0.1);border-radius: 50%;color: #fff;transition: .3s all linear;z-index: 9999;bottom: {{bottom ? bottom : 12 }}vh;right: {{right ? right : 3}}vw">
+            <text style="margin-top: -8rpx;font-size: 18rpx;">{{txt}}</text>
+        </view>
+    </navigator>
+</template>
