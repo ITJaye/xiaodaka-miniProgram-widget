@@ -12,7 +12,7 @@ xiaodaka-miniProgram-widget
 
 ###### 步骤：
 1. 在你的公众号上申请关联小打卡小程序
-小打卡app_id：wx855c5d7718f2ft218c9
+小打卡app_id：wx855c5d7718f218c9
 1. 登录 http://web.sharedaka.com  获取你的圈子链接
 1. 在你的小程序中引入template下的文件
 
